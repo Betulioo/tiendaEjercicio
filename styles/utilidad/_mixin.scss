@@ -1,0 +1,18 @@
+@mixin buttonElement($bgColor: #446666, $color: #ffffff, $padding: 20px){
+    background-color: $bgColor;
+    color: $color;
+    padding: $padding;
+    margin: 10px;
+    border: 2px solid $color;
+    text-align: center;
+    display: block;
+    width: 250px;
+}
+
+@mixin titleElement($color: #000){
+    font-size: 25px;
+    color: $color;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}

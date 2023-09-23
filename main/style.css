@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* TERMINA EL RESET*/
+/*---- border-box---*/
+* {
+  box-sizing: border-box;
+}
+
+/*---- border-box---*/
+header {
+  width: 100vw;
+  height: 10vh;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__divlogo {
+  width: 33%;
+  height: 100%;
+}
+
+.navbar__divlogo--img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar__divsearch {
+  width: 33%;
+  height: 100%;
+  display: flex;
+}
+
+.navbar__ul {
+  width: 33%;
+  font-size: 50px;
+  padding: 10px;
+  z-index: 1;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__ul--li-mujer--a {
+  font-size: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar__ul--li-mujer--aa {
+  font-size: 75px;
+}
+
+.linea::after {
+  content: "|";
+}
+
+.navbar__ul--li-mujer {
+  line-height: 1.8;
+}
+
+.fondo {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.main-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.img-galeria {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+figure {
+  width: 500px;
+  height: 700px;
+  margin-bottom: 85px;
+}
+figure p {
+  font-size: 35px;
+  text-align: center;
+  color: rgb(168, 167, 167);
+}
+
+figcaption {
+  text-align: center;
+  font-size: 40px;
+  margin: 10px;
+}
+
+.navbar-img {
+  width: 80px;
+  height: 80px;
+}
+
+.navbar__ul__li--iconos {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__ul--iconos {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar--input {
+  width: 45%;
+  height: 30%;
+  position: relative;
+  border: 1px solid black;
+  top: 118px;
+  font-size: 50px;
+  padding-right: 20px;
+}
+
+.hombre {
+  color: grey;
+}
+
+.hidde {
+  display: none;
+}
+
+.div-info {
+  height: 100%;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
