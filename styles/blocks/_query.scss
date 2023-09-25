@@ -1,0 +1,142 @@
+@include landscape{
+
+
+
+}
+
+
+
+
+
+@include tablet{
+
+
+
+
+}
+
+
+
+
+
+@include desktop{
+
+
+
+
+}
+
+
+
+@include large{
+
+  .main-grid{
+    flex-wrap: nowrap;
+    height: 88vh;
+    align-items: center;
+ }
+  .figure-fix{
+     max-height: 80vh;
+     & p {
+         font-size: 130px;
+         text-align: center;
+         color: rgb(168, 167, 167);
+         
+     }
+  }
+  .figure-caption{
+     font-size: 100px;
+     & p {
+         font-size: 80px;
+     }
+  }
+
+
+.navbar__ul--li-mujer--aa {
+ font-size: 245px;
+}
+.navbar__ul__li--iconos{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+}
+
+.img-galeria{
+ height: 64vh;
+
+}
+
+.div-info2-div{
+ flex-direction: column;
+ width: 100%;
+ height: 100%;
+}
+
+ .div-info{
+ width: 100%;
+ height: 35vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ &-div{
+     width: 100%;
+     height: 97%;
+     align-items: center;
+     flex-direction: column;
+     gap: 200px;
+ }
+ &--descuento{
+     font-size: 250px;
+ }
+ &--newsletter{
+     font-size: 175px;
+ }
+ &--parrafo{
+     font-size: 100px;
+ }
+ &::after{
+     bottom: 400px;
+ }
+}
+.div-contacto{
+ width: 72%;
+ height: 25vh;
+ justify-content: center;
+
+ &--p{
+     font-size: 130px;
+ }
+}
+
+.section-footer{
+ flex-wrap: nowrap;
+}
+.section-footer__ul--guiaDeCompras{
+ font-size: 150px;
+}
+.section-footer__ul--li{
+ font-size: 80px;
+}
+
+.section-footer__ul{
+ width: 18vh;
+}
+
+.input-1 {
+
+  width: 33%;
+  height: 7%;
+  border-style: none;
+  border-bottom: 3px solid black;
+}
+
+.input-1:focus{
+  outline-color: transparent;
+  font-size: 150px;
+}
+
+ }
+ 
+
+    

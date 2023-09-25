@@ -81,17 +81,19 @@ body {
 .navbar__divlogo--img {
   width: 100%;
   height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .navbar__divsearch {
   width: 33%;
   height: 100%;
   display: flex;
+  align-items: center;
 }
 
 .navbar__ul {
   width: 33%;
-  font-size: 50px;
   padding: 10px;
   z-index: 1;
   font-family: "Ubuntu", sans-serif;
@@ -100,13 +102,9 @@ body {
 }
 
 .navbar__ul--li-mujer--a {
-  font-size: 50px;
+  font-size: 70px;
   text-decoration: none;
   color: black;
-}
-
-.navbar__ul--li-mujer--aa {
-  font-size: 75px;
 }
 
 .linea::after {
@@ -124,10 +122,10 @@ body {
 .main-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 25px;
   width: 100%;
-  height: 100vh;
+  height: 240vh;
   position: relative;
+  justify-content: space-around;
 }
 
 .img-galeria {
@@ -138,8 +136,8 @@ body {
 }
 
 figure {
-  width: 500px;
-  height: 700px;
+  width: 50%;
+  padding: 30px;
   margin-bottom: 85px;
 }
 figure p {
@@ -155,8 +153,8 @@ figcaption {
 }
 
 .navbar-img {
-  width: 80px;
-  height: 80px;
+  width: 66%;
+  height: 40%;
 }
 
 .navbar__ul__li--iconos {
@@ -178,7 +176,6 @@ figcaption {
   height: 30%;
   position: relative;
   border: 1px solid black;
-  top: 118px;
   font-size: 50px;
   padding-right: 20px;
 }
@@ -191,7 +188,193 @@ figcaption {
   display: none;
 }
 
-.div-info {
-  height: 100%;
+.div-info2 {
+  height: 51vh;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.div-info2-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: 50px;
+  gap: 50px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  position: relative;
+  height: 47vh;
+  align-items: center;
+  align-content: center;
+}
+
+.div-info--descuento {
+  font-size: 132px;
+  padding-top: 200px;
+}
+.div-info--descuento h2 {
+  font-size: 100px;
+}
+
+.color1 {
+  color: red;
+}
+
+.div-info--newsletter {
+  font-size: 85px;
+}
+
+.div-info--parrafo {
+  font-size: 50px;
+  margin-bottom: 150px;
+}
+
+.borde {
+  border-bottom: 1px solid grey;
+}
+
+.div-contacto {
+  width: 100%;
+  height: 17vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+
+.div-contacto--p {
+  font-size: 50px;
+  text-align: center;
+}
+
+.foot {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section-footer {
+  display: flex;
+  width: 100%;
+  height: 26%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.section-footer__ul {
+  font-size: 35px;
+  width: 7vh;
+}
+
+.input-1 {
+  width: 82%;
+  height: 7%;
+  border-style: none;
+  border-bottom: 3px solid black;
+}
+
+.input-1:focus {
+  outline-color: transparent;
+  font-size: 150px;
+}
+
+@media screen and (min-width: 1600px) {
+  .main-grid {
+    flex-wrap: nowrap;
+    height: 88vh;
+    align-items: center;
+  }
+  .figure-fix {
+    max-height: 80vh;
+  }
+  .figure-fix p {
+    font-size: 130px;
+    text-align: center;
+    color: rgb(168, 167, 167);
+  }
+  .figure-caption {
+    font-size: 100px;
+  }
+  .figure-caption p {
+    font-size: 80px;
+  }
+  .navbar__ul--li-mujer--aa {
+    font-size: 245px;
+  }
+  .navbar__ul__li--iconos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .img-galeria {
+    height: 64vh;
+  }
+  .div-info2-div {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .div-info {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .div-info-div {
+    width: 100%;
+    height: 97%;
+    align-items: center;
+    flex-direction: column;
+    gap: 200px;
+  }
+  .div-info--descuento {
+    font-size: 250px;
+  }
+  .div-info--newsletter {
+    font-size: 175px;
+  }
+  .div-info--parrafo {
+    font-size: 100px;
+  }
+  .div-info::after {
+    bottom: 400px;
+  }
+  .div-contacto {
+    width: 72%;
+    height: 25vh;
+    justify-content: center;
+  }
+  .div-contacto--p {
+    font-size: 130px;
+  }
+  .section-footer {
+    flex-wrap: nowrap;
+  }
+  .section-footer__ul--guiaDeCompras {
+    font-size: 150px;
+  }
+  .section-footer__ul--li {
+    font-size: 80px;
+  }
+  .section-footer__ul {
+    width: 18vh;
+  }
+  .input-1 {
+    width: 33%;
+    height: 7%;
+    border-style: none;
+    border-bottom: 3px solid black;
+  }
+  .input-1:focus {
+    outline-color: transparent;
+    font-size: 150px;
+  }
 }/*# sourceMappingURL=style.css.map */
