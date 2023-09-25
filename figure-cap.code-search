@@ -1,0 +1,81 @@
+# Query: figure-cap
+# ContextLines: 1
+
+15 results - 3 files
+
+index.html:
+  44        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda1.jpg" alt="">
+  45        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda1.jpg" alt="">
+  46:         <figcaption class="figure-caption1">Mochila roja </figcaption><p>35€</p>
+
+  46        </figure>
+  47        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda2.jpg" alt="">
+  48        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda2.jpg" alt="">
+  49:         <figcaption class="figure-caption1">Mochila roja 45€</figcaption><p>45€</p>
+
+  49        </figure>
+  50        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda3.jpg" alt="">
+  51        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda3.jpg" alt="">
+  52:         <figcaption class="figure-caption1">Mochila roja 45€</figcaption><p>25€</p>
+
+  52        </figure>
+  53        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda4.jpg" alt="">
+  54        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda4.jpg" alt="">
+  55:         <figcaption class="figure-caption1">Mochila roja 45€</figcaption><p>15€</p>
+
+  55        </figure>
+  56        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda5.jpg" alt="">
+  57        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda5.jpg" alt="">
+  58:         <figcaption class="figure-caption1">Mochila roja 45€</figcaption><p>45€</p>
+
+  58        </figure>
+  59        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda6.jpg" alt="">
+  60        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda6.jpg" alt="">
+  61:         <figcaption class="figure-caption1">Mochila roja 45€</figcaption><p>45€</p>
+
+  61        </figure>
+  62        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda7.jpg" alt="">
+  63        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda7.jpg" alt="">
+  64:         <figcaption class="figure-caption1">Mochila roja 45€</figcaption><p>45€</p>
+
+  64        </figure>
+  65        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda8.jpg" alt="">
+  66        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda8.jpg" alt="">
+  67:         <figcaption class="figure-caption1">Mochila roja 45€</figcaption><p>45€</p>
+
+  67        </figure>
+  68        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda9.jpg" alt="">
+  69        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda9.jpg" alt="">
+  70:         <figcaption class="figure-caption1">Mochila roja 45€</figcaption><p>45€</p>
+
+  70        </figure>
+  71        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda10.jpg" alt="">
+  72        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda10.jpg" alt="">
+  73:         <figcaption class="figure-caption1">Mochila roja 45€</figcaption><p>45€</p>
+
+  73        </figure class="figure-fix">
+  74        <figure class="figure-fix" ><img class="img-galeria" src="./assets/fototienda11.jpg" alt="">
+  75        <figure class="figure-fix" ><img class="img-galeria" src="./assets/fototienda11.jpg" alt="">
+  76:         <figcaption class="figure-caption1">Mochila roja 45€</figcaption><p>45€</p>
+
+  76        </figure>
+  77        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda12.jpg" alt="">
+  78        <figure class="figure-fix"><img class="img-galeria" src="./assets/fototienda12.jpg" alt="">
+  79:         <figcaption class="figure-caption1">Mochila roja 45€</figcaption><p>45€</p>
+  79        </figure>
+  80        </figure>
+
+main\style.css:
+  300    }
+  301:   .figure-caption {
+  302      font-size: 100px;
+  303    }
+  304:   .figure-caption p {
+  305      font-size: 80px;
+
+styles\blocks\_query.scss:
+  45    }
+  46    }
+  47:   .figure-caption{
+  47       font-size: 100px;
+  48       font-size: 100px;
